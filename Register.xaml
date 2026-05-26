@@ -1,0 +1,101 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.Register"
+             Title="Sign Up"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <StackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand">
+
+            <Label Text="SIGN UP"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="DarkGreen" />
+
+            <!-- Full Name -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Entry x:Name="nameEntry" Placeholder="Full Name" TextColor="Black" />
+            </Frame>
+
+            <!-- Email -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Entry x:Name="emailEntry" Placeholder="Email Address" Keyboard="Email" TextColor="Black" />
+            </Frame>
+
+            <!-- Password (no show/hide button) -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True" TextColor="Black" />
+            </Frame>
+
+            <!-- Confirm Password (placeholder same as Password) -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Entry x:Name="confirmPasswordEntry" Placeholder="Password" IsPassword="True" TextColor="Black" />
+            </Frame>
+
+            <!-- Employment Picker -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Picker x:Name="employmentPicker" Title="Employment Status" TextColor="Black">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Employed</x:String>
+                            <x:String>Self-employed</x:String>
+                            <x:String>Student</x:String>
+                            <x:String>Retired</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Frame>
+
+            <!-- Income Picker -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Picker x:Name="incomePicker" Title="Annual Income Range" TextColor="Black">
+                    <Picker.Items>
+                        <x:String>Less than R25,000</x:String>
+                        <x:String>R25,000 - R50,000</x:String>
+                        <x:String>R50,000 - R100,000</x:String>
+                        <x:String>Over R100,000</x:String>
+                    </Picker.Items>
+                </Picker>
+            </Frame>
+
+            <!-- Financial Goals -->
+            <Frame CornerRadius="10" HasShadow="False" BorderColor="Gray" BackgroundColor="#F0F0F0" Padding="10">
+                <Picker x:Name="goalsPicker" Title="Primary Financial Goal" TextColor="Black">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Retirement</x:String>
+                            <x:String>Saving for a Home</x:String>
+                            <x:String>Debt Reduction</x:String>
+                            <x:String>General Investment</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+            </Frame>
+
+            <!-- Terms and Conditions -->
+            <StackLayout Orientation="Horizontal" VerticalOptions="Center" Spacing="5">
+                <CheckBox x:Name="termsCheckBox" Color="DarkGreen"/>
+                <Label FontSize="12" TextColor="Black" VerticalTextAlignment="Center">
+                    <Label.FormattedText>
+                        <FormattedString>
+                            <Span Text="By continuing, you agree to our " TextColor="DarkGreen"/>
+                            <Span Text="Terms of Service" TextDecorations="Underline" TextColor="DarkGreen"/>
+                            <Span Text=" and " TextColor="DarkGreen" />
+                            <Span Text="Privacy Policy" TextDecorations="Underline" TextColor="DarkGreen"/>
+                        </FormattedString>
+                    </Label.FormattedText>
+                </Label>
+            </StackLayout>
+
+            <!-- Sign Up Button -->
+            <Button Text="Sign Up"
+                    Clicked="OnRegisterClicked"
+                    BackgroundColor="DarkGreen"
+                    TextColor="White"
+                    HeightRequest="50"
+                    CornerRadius="10"
+                    FontAttributes="Bold"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

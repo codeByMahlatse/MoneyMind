@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.MainPage"
+             BackgroundColor="Transparent">
+
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="main.png"
+               Aspect="AspectFill"
+               Opacity="0.6"
+               IsVisible="True"
+               ZIndex="0" />
+
+        <!-- Foreground Content -->
+        <ScrollView>
+            <VerticalStackLayout
+                Padding="30,0"
+                Spacing="25"
+                ZIndex="1">
+
+                <Image
+                    Source="logos.png"
+                    HeightRequest="185"
+                    WidthRequest="400"
+                    Aspect="AspectFill"
+                    SemanticProperties.Description="dot net bot in a race car number eight" />
+
+                <CollectionView x:Name="ItemsCollectionView">
+                    
+                </CollectionView>
+
+                <Label
+                    Text="Welcome MoneyMind"
+                    Style="{StaticResource Headline}"
+                    HorizontalOptions="Center"
+                    SemanticProperties.HeadingLevel="Level1" />
+
+                <Label
+                    Text="Your Money.YourMindset"
+                    Style="{StaticResource SubHeadline}"
+                    HorizontalOptions="Center"
+                    SemanticProperties.HeadingLevel="Level2"
+                    SemanticProperties.Description="Welcome to dot net Multi platform App U I" />
+
+                <Button
+                    x:Name="CounterBtn"
+                    Text="Continue" 
+                    SemanticProperties.Hint="takes you to the next page"
+                    Clicked="OnCounterClicked"
+                    HorizontalOptions="Center" 
+                    WidthRequest="200"
+                    HeightRequest="40"
+                    BackgroundColor="AntiqueWhite"
+                    BorderColor="#004d00"
+                    FontSize="15"/>
+            </VerticalStackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

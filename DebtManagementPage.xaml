@@ -1,0 +1,89 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.DebtManagementPage"
+             BackgroundColor="White"
+             Title="Debt Management">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+
+            <!-- Total Owed -->
+            <Frame BackgroundColor="#E8F5E9" Padding="20" CornerRadius="12" HasShadow="True">
+                <VerticalStackLayout>
+                    <Label Text="Total Owed"
+                           FontAttributes="Bold"
+                           FontSize="16"
+                           TextColor="DarkGreen"/>
+                    <Label x:Name="TotalOwedLabel"
+                           Text="R1,800"
+                           FontSize="32"
+                           FontAttributes="Bold"
+                           TextColor="Black"/>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Input Fields -->
+            <Entry x:Name="AmountEntry"
+                   Placeholder="Amount Owed"
+                   Keyboard="Numeric"
+                   BackgroundColor="#F0F0F0"
+                   PlaceholderColor="#888"
+                   TextColor="Black"/>
+
+            <Entry x:Name="ToWhomEntry"
+                   Placeholder="To Whom"
+                   BackgroundColor="#F0F0F0"
+                   PlaceholderColor="#888"
+                   TextColor="Black"/>
+
+            <DatePicker x:Name="DueDatePicker"
+                        BackgroundColor="#F0F0F0"
+                        TextColor="Black"/>
+
+            <Button Text="+ Add"
+                    BackgroundColor="DarkGreen"
+                    TextColor="White"
+                    CornerRadius="10"
+                    FontAttributes="Bold"
+                    Clicked="OnAddClicked"/>
+
+            <!-- Chart (Simple BoxView representation) -->
+            <Frame BackgroundColor="#F9F9F9" CornerRadius="10" HasShadow="True">
+                <VerticalStackLayout>
+                    <Label Text="Debt by Due Date"
+                           FontAttributes="Bold"
+                           FontSize="16"
+                           TextColor="DarkGreen"
+                           HorizontalOptions="Center"/>
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="150"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+                            <VerticalStackLayout HorizontalOptions="Center">
+                                <BoxView HeightRequest="90" WidthRequest="30" Color="DarkOliveGreen"/>
+                                <Label Text="May" HorizontalTextAlignment="Center" FontSize="12" TextColor="Black"/>
+                            </VerticalStackLayout>
+                            <VerticalStackLayout HorizontalOptions="Center">
+                                <BoxView HeightRequest="130" WidthRequest="30" Color="ForestGreen"/>
+                                <Label Text="June" HorizontalTextAlignment="Center" FontSize="12" TextColor="Black"/>
+                            </VerticalStackLayout>
+                            <VerticalStackLayout HorizontalOptions="Center">
+                                <BoxView HeightRequest="110" WidthRequest="30" Color="SeaGreen"/>
+                                <Label Text="July" HorizontalTextAlignment="Center" FontSize="12" TextColor="Black"/>
+                            </VerticalStackLayout>
+                        </StackLayout>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- Debt List -->
+            <StackLayout x:Name="DebtList" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FinalApp
+build_property.ProjectDir = C:\Users\tlhol\Downloads\FinalApp\FinalApp\Our Project work\FinalApp\FinalApp\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTAotOptimizerEnabled = true
+build_property.CsWinRTAotExportsEnabled = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptIn = 
+build_property.CsWinRTRcwFactoryFallbackGeneratorForceOptOut = 
+build_property.CsWinRTCcwLookupTableGeneratorEnabled = true
+build_property.CsWinRTMergeReferencedActivationFactories = 
+build_property.CsWinRTAotWarningLevel = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/BudgetPlannerPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.BudgetPlannerPage.xaml
+build_metadata.AdditionalFiles.TargetPath = BudgetPlannerPage.xaml
+build_metadata.AdditionalFiles.RelativePath = BudgetPlannerPage.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/dashboard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.dashboard.xaml
+build_metadata.AdditionalFiles.TargetPath = dashboard.xaml
+build_metadata.AdditionalFiles.RelativePath = dashboard.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/DebtManagementPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.DebtManagementPage.xaml
+build_metadata.AdditionalFiles.TargetPath = DebtManagementPage.xaml
+build_metadata.AdditionalFiles.RelativePath = DebtManagementPage.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/FinancialReportPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.FinancialReportPage.xaml
+build_metadata.AdditionalFiles.TargetPath = FinancialReportPage.xaml
+build_metadata.AdditionalFiles.RelativePath = FinancialReportPage.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/LoginPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.LoginPage.xaml
+build_metadata.AdditionalFiles.TargetPath = LoginPage.xaml
+build_metadata.AdditionalFiles.RelativePath = LoginPage.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/Register.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.Register.xaml
+build_metadata.AdditionalFiles.TargetPath = Register.xaml
+build_metadata.AdditionalFiles.RelativePath = Register.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/ResetPasswordPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.ResetPasswordPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ResetPasswordPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ResetPasswordPage.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/tlhol/Downloads/FinalApp/FinalApp/Our Project work/FinalApp/FinalApp/SavingGoalsPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FinalApp.SavingGoalsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SavingGoalsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SavingGoalsPage.xaml

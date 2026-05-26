@@ -1,0 +1,111 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.FinancialReportPage"
+             Title="Financial Report"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <!-- Header -->
+            <Label Text="{Binding ReportGreeting}" 
+                   FontAttributes="Bold" 
+                   FontSize="20" 
+                   HorizontalOptions="Center" 
+                   TextColor="#5E35B1"/>
+
+            <Label Text="{Binding ReportDate}" 
+                   FontSize="12" 
+                   HorizontalOptions="Center" 
+                   TextColor="Gray"/>
+
+            <Label Text="----------------------------------------------------------------------------------" 
+                   HorizontalOptions="Center" 
+                   TextColor="Gray" />
+
+            <!-- BUDGET -->
+            <Label Text="BUDGET SUMMARY" 
+                   FontAttributes="Bold" 
+                   FontSize="14" 
+                   TextColor="#5E35B1"/>
+
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Monthly Income:" Grid.Column="0" TextColor="#333333"/>
+                <Label Text="{Binding Income, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#333333"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Monthly Expenses:" Grid.Column="0" TextColor="#333333"/>
+                <Label Text="{Binding TotalExpenses, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#333333"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Remaining Budget:" Grid.Column="0" TextColor="#333333"/>
+                <Label Text="{Binding RemainingBudget, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#00796B"/>
+            </Grid>
+
+            <Label Text="-----------------------------------------------------------" 
+                   HorizontalOptions="Center" 
+                   TextColor="Gray" />
+
+            <!-- SAVINGS -->
+            <Label Text="SAVINGS" 
+                   FontAttributes="Bold" 
+                   FontSize="14" 
+                   TextColor="#5E35B1"/>
+
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Emergency Fund:" Grid.Column="0" TextColor="#333333"/>
+                <Label Text="{Binding EmergencyFund, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#333333"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Retirement Fund:" Grid.Column="0" TextColor="#333333"/>
+                <Label Text="{Binding RetirementFund, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#333333"/>
+            </Grid>
+
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Other Savings:" Grid.Column="0" TextColor="#333333"/>
+                <Label Text="{Binding OtherSavings, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#333333"/>
+            </Grid>
+
+            <!-- Total Savings -->
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Total Savings:" FontAttributes="Bold" Grid.Column="0" TextColor="#00796B"/>
+                <Label Text="{Binding TotalSavings, StringFormat='R{0:N2}'}" FontAttributes="Bold" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#00796B"/>
+            </Grid>
+
+            <Label Text="----------------------------------------------------------" 
+                   HorizontalOptions="Center" 
+                   TextColor="Gray" />
+
+            <!-- DEBT -->
+            <Label Text="DEBT" 
+                   FontAttributes="Bold" 
+                   FontSize="14" 
+                   TextColor="#D32F2F"/>
+
+            <CollectionView ItemsSource="{Binding Debts}" Margin="0,0,0,10">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid ColumnDefinitions="*,Auto">
+                            <Label Text="{Binding Creditor}" Grid.Column="0" TextColor="#333333"/>
+                            <Label Text="{Binding Amount, StringFormat='R{0:N2}'}" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#333333"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- Total Debt -->
+            <Grid ColumnDefinitions="*,Auto">
+                <Label Text="Total Debt:" FontAttributes="Bold" Grid.Column="0" TextColor="#D32F2F"/>
+                <Label Text="{Binding TotalDebt, StringFormat='R{0:N2}'}" FontAttributes="Bold" Grid.Column="1" HorizontalTextAlignment="End" TextColor="#D32F2F"/>
+            </Grid>
+
+            <Label Text="-----------------------------------------------------------" 
+                   HorizontalOptions="Center" 
+                   TextColor="Gray" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

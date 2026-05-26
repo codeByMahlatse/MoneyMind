@@ -1,0 +1,533 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:dashboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:dashboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\budgetplannerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:budgetplannerpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\models\\budgetmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:models\\budgetmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\models\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:models\\debt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:register.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\debtmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:debtmanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\financialreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:financialreportpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\debtmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:debtmanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\savinggoalspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:savinggoalspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\savinggoalspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:savinggoalspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\budgetplannerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:budgetplannerpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\resetpasswordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:resetpasswordpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:register.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:loginpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\financialreportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:financialreportpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\models\\savinggoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:models\\savinggoal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:platforms\\android\\mainapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\resetpasswordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:resetpasswordpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\finalapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:finalapp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|c:\\users\\tlhol\\downloads\\finalapp\\finalapp\\our project work\\finalapp\\finalapp\\savinggoaldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BE75CDA-3E3B-4D91-A60C-26E45F4E2FF2}|FinalApp.csproj|solutionrelative:savinggoaldatabase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Debt.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\Debt.cs",
+              "RelativeDocumentMoniker": "Models\\Debt.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\Debt.cs",
+              "RelativeToolTip": "Models\\Debt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T20:38:20.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BudgetPlannerPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\BudgetPlannerPage.xaml.cs",
+              "RelativeDocumentMoniker": "BudgetPlannerPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\BudgetPlannerPage.xaml.cs",
+              "RelativeToolTip": "BudgetPlannerPage.xaml.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwEsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T17:41:50.096Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "dashboard.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\dashboard.xaml",
+              "RelativeDocumentMoniker": "dashboard.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\dashboard.xaml",
+              "RelativeToolTip": "dashboard.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T09:09:03.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DatabaseService.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Services\\DatabaseService.cs",
+              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Services\\DatabaseService.cs",
+              "RelativeToolTip": "Services\\DatabaseService.cs",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAqwJwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:58:11.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T23:35:47.992Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dashboard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\dashboard.xaml.cs",
+              "RelativeDocumentMoniker": "dashboard.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\dashboard.xaml.cs",
+              "RelativeToolTip": "dashboard.xaml.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwD4AAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T18:55:53.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\LoginPage.xaml.cs",
+              "RelativeDocumentMoniker": "LoginPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\LoginPage.xaml.cs",
+              "RelativeToolTip": "LoginPage.xaml.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDAAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:48:51.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BudgetModels.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\BudgetModels.cs",
+              "RelativeDocumentMoniker": "Models\\BudgetModels.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\BudgetModels.cs",
+              "RelativeToolTip": "Models\\BudgetModels.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:04:06.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Register.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Register.xaml.cs",
+              "RelativeDocumentMoniker": "Register.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Register.xaml.cs",
+              "RelativeToolTip": "Register.xaml.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T02:22:55.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FinancialReportPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\FinancialReportPage.xaml",
+              "RelativeDocumentMoniker": "FinancialReportPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\FinancialReportPage.xaml",
+              "RelativeToolTip": "FinancialReportPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T06:53:52.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DebtManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\DebtManagementPage.xaml",
+              "RelativeDocumentMoniker": "DebtManagementPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\DebtManagementPage.xaml",
+              "RelativeToolTip": "DebtManagementPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T14:54:45.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DebtManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\DebtManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "DebtManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\DebtManagementPage.xaml.cs",
+              "RelativeToolTip": "DebtManagementPage.xaml.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAiwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T14:56:53.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "MainPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\MainPage.xaml",
+              "RelativeToolTip": "MainPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T10:27:25.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LoginPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\LoginPage.xaml",
+              "RelativeDocumentMoniker": "LoginPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\LoginPage.xaml",
+              "RelativeToolTip": "LoginPage.xaml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAkwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-16T13:56:26.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SavingGoalsPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\SavingGoalsPage.xaml.cs",
+              "RelativeDocumentMoniker": "SavingGoalsPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\SavingGoalsPage.xaml.cs",
+              "RelativeToolTip": "SavingGoalsPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:55:24.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SavingGoalsPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\SavingGoalsPage.xaml",
+              "RelativeDocumentMoniker": "SavingGoalsPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\SavingGoalsPage.xaml",
+              "RelativeToolTip": "SavingGoalsPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T11:54:52.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "BudgetPlannerPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\BudgetPlannerPage.xaml",
+              "RelativeDocumentMoniker": "BudgetPlannerPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\BudgetPlannerPage.xaml",
+              "RelativeToolTip": "BudgetPlannerPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-13T17:15:25.812Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResetPasswordPage.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\ResetPasswordPage.xaml",
+              "RelativeDocumentMoniker": "ResetPasswordPage.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\ResetPasswordPage.xaml",
+              "RelativeToolTip": "ResetPasswordPage.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T08:47:41.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Register.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Register.xaml",
+              "RelativeDocumentMoniker": "Register.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Register.xaml",
+              "RelativeToolTip": "Register.xaml",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAUwGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-17T08:29:07.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "FinancialReportPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\FinancialReportPage.xaml.cs",
+              "RelativeDocumentMoniker": "FinancialReportPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\FinancialReportPage.xaml.cs",
+              "RelativeToolTip": "FinancialReportPage.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwB8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T06:54:20.393Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAwBEAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T07:41:20.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SavingGoal.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\SavingGoal.cs",
+              "RelativeDocumentMoniker": "Models\\SavingGoal.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Models\\SavingGoal.cs",
+              "RelativeToolTip": "Models\\SavingGoal.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T00:30:12.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-05-14T11:26:27.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "MainActivity.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Platforms\\Android\\MainActivity.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainActivity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:45:37.396Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MainApplication.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\Platforms\\Android\\MainApplication.cs",
+              "RelativeToolTip": "Platforms\\Android\\MainApplication.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:45:32.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "MauiProgram.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\MauiProgram.cs",
+              "RelativeToolTip": "MauiProgram.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T14:42:07.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "MainPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T10:27:29.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ResetPasswordPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\ResetPasswordPage.xaml.cs",
+              "RelativeDocumentMoniker": "ResetPasswordPage.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\ResetPasswordPage.xaml.cs",
+              "RelativeToolTip": "ResetPasswordPage.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T08:48:59.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FinalApp.csproj",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\FinalApp.csproj",
+              "RelativeDocumentMoniker": "FinalApp.csproj",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\FinalApp.csproj",
+              "RelativeToolTip": "FinalApp.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T07:43:45.548Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "SavingGoalDatabase.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\SavingGoalDatabase.cs",
+              "RelativeDocumentMoniker": "SavingGoalDatabase.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\SavingGoalDatabase.cs",
+              "RelativeToolTip": "SavingGoalDatabase.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAIBJwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T12:31:20.683Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T11:26:35.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "AppShell.xaml.cs",
+              "ToolTip": "C:\\Users\\tlhol\\Downloads\\FinalApp\\FinalApp\\Our Project work\\FinalApp\\FinalApp\\AppShell.xaml.cs",
+              "RelativeToolTip": "AppShell.xaml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwBMAAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T09:49:17.189Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

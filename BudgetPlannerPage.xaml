@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:microcharts="clr-namespace:Microcharts.Maui;assembly=Microcharts.Maui"
+             x:Class="FinalApp.BudgetPlannerPage"
+             Title="Budget Planner"
+             BackgroundColor="White">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20" VerticalOptions="StartAndExpand">
+
+            <!-- Title -->
+            <Label Text="MONTHLY BUDGET PLANNER"
+                   FontSize="28"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="DarkGreen" />
+
+            <!-- Income -->
+            <VerticalStackLayout>
+                <Label Text="Total Income" FontAttributes="Bold" TextColor="Black"/>
+                <Frame BackgroundColor="#F0F0F0" CornerRadius="10" Padding="8">
+                    <Entry x:Name="IncomeEntry" Placeholder="Enter income" Keyboard="Numeric" TextColor="Black"/>
+                </Frame>
+            </VerticalStackLayout>
+
+            <!-- Expenses Section Title -->
+            <Label Text="Enter Your Monthly Expenses"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   TextColor="DarkGreen" />
+
+            <!-- Rent -->
+            <VerticalStackLayout>
+                <Label Text="Rent" TextColor="Black"/>
+                <Frame BackgroundColor="#F0F0F0" CornerRadius="10" Padding="8">
+                    <Entry x:Name="RentEntry" Placeholder="0" Keyboard="Numeric" TextColor="Black"/>
+                </Frame>
+            </VerticalStackLayout>
+
+            <!-- Grocery -->
+            <VerticalStackLayout>
+                <Label Text="Grocery" TextColor="Black"/>
+                <Frame BackgroundColor="#F0F0F0" CornerRadius="10" Padding="8">
+                    <Entry x:Name="GroceryEntry" Placeholder="0" Keyboard="Numeric" TextColor="Black"/>
+                </Frame>
+            </VerticalStackLayout>
+
+            <!-- Transportation -->
+            <VerticalStackLayout>
+                <Label Text="Transportation" TextColor="Black"/>
+                <Frame BackgroundColor="#F0F0F0" CornerRadius="10" Padding="8">
+                    <Entry x:Name="TransportEntry" Placeholder="0" Keyboard="Numeric" TextColor="Black"/>
+                </Frame>
+            </VerticalStackLayout>
+
+            <!-- Utilities -->
+            <VerticalStackLayout>
+                <Label Text="Utilities" TextColor="Black"/>
+                <Frame BackgroundColor="#F0F0F0" CornerRadius="10" Padding="8">
+                    <Entry x:Name="UtilitiesEntry" Placeholder="0" Keyboard="Numeric" TextColor="Black"/>
+                </Frame>
+            </VerticalStackLayout>
+
+            <!-- Button -->
+            <Button Text="Generate Plan and Chart"
+                    Clicked="OnGenerateChartClicked"
+                    BackgroundColor="DarkGreen"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    HeightRequest="50"
+                    CornerRadius="12" />
+
+            <!-- Suggestions -->
+            <Label x:Name="StrategyLabel"
+                   FontSize="20"
+                   TextColor="DarkGreen"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   HorizontalTextAlignment="Center"
+                   Margin="10,0"/>
+
+            <!-- Pie Chart -->
+            <Frame Padding="10"
+                   BackgroundColor="White"
+                   CornerRadius="15"
+                   HasShadow="True"
+                   Margin="0">
+                <microcharts:ChartView x:Name="PieChart"
+                                       HeightRequest="300"
+                                       WidthRequest="300"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="Center"/>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

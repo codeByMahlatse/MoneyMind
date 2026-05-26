@@ -1,0 +1,99 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.LoginPage"
+             Title="Login"
+             BackgroundColor="White">
+
+    <Grid>
+        <!-- Optional background -->
+        <Image Source="green.png"
+               Aspect="AspectFill"
+               Opacity="0.4"
+               IsVisible="True"
+               />
+
+        <ScrollView>
+            <StackLayout Padding="30" Spacing="20" VerticalOptions="CenterAndExpand">
+                <Label Text="WELCOME"
+                       FontSize="28"
+                       FontAttributes="Bold"
+                       HorizontalOptions="Center"
+                       TextColor="DarkGreen" />
+
+                <Entry x:Name="UsernameEntery"
+                       Placeholder="Email"
+                       Keyboard="Email"
+                       TextColor="Black"
+                       BackgroundColor="#F0F0F0"
+                       HeightRequest="45"
+                       />
+
+                <!-- Password Field with Show/Hide Button -->
+                <Grid>
+                    <Entry x:Name="passwordEntry"
+                           Placeholder="Password"
+                           IsPassword="True"
+                           TextColor="Black"
+                           BackgroundColor="#F0F0F0"
+                           HeightRequest="45"
+                           HorizontalOptions="FillAndExpand"/>
+                    <Button x:Name="togglePasswordButton"
+                            Text="Show"
+                            BackgroundColor="Transparent"
+                            TextColor="DarkGreen"
+                            FontSize="12"
+                            WidthRequest="60"
+                            HeightRequest="45"
+                            HorizontalOptions="End"
+                            VerticalOptions="Center"
+                            Clicked="OnTogglePasswordClicked"/>
+                </Grid>
+
+                <!-- Remember Me -->
+                <StackLayout Orientation="Horizontal"
+                             HorizontalOptions="FillAndExpand"
+                             VerticalOptions="Center"
+                             Spacing="10">
+                    <CheckBox x:Name="rememberMeCheckBox" />
+                    <Label Text="Remember Me"
+                           VerticalOptions="Center"
+                           TextColor="Black"/>
+                </StackLayout>
+
+                <Button Text="Forgot password?"
+                        Clicked="OnForgotClicked"
+                        BackgroundColor="Transparent"
+                        TextColor="DarkGreen"
+                        HorizontalOptions="End"
+                        FontAttributes="Italic"
+                        FontSize="13"/>
+
+                <!-- Login Button -->
+                <Button Text="Login"
+                        Clicked="OnSubmitClicked"
+                        BackgroundColor="DarkGreen"
+                        TextColor="White"
+                        HeightRequest="50"
+                        CornerRadius="10"
+                        FontAttributes="Bold"
+                        />
+
+                <Label Text="Don't have an account?"
+                       HorizontalOptions="Center"
+                       TextColor="Gray"
+                       FontSize="13"/>
+
+                <!-- Sign Up Button -->
+                <Button Text="Sign Up"
+                        Clicked="OnSignUpClicked"
+                        BackgroundColor="Transparent"
+                        BorderColor="DarkGreen"
+                        BorderWidth="1"
+                        CornerRadius="10"
+                        TextColor="DarkGreen"
+                        HeightRequest="50"
+                        FontAttributes="Bold"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

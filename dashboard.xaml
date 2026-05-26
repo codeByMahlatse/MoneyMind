@@ -1,0 +1,171 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FinalApp.dashboard"
+             Title="Dashboard"
+             BackgroundColor="#F2F4F8">
+
+    <ScrollView>
+        <StackLayout Padding="20" Spacing="20">
+
+            <!-- Top Bar with Greeting and Logout Button -->
+            <Grid ColumnDefinitions="*, Auto"
+                  VerticalOptions="Center"
+                  HorizontalOptions="FillAndExpand">
+
+                <Label Text="👋 Hello, User"
+                       FontSize="26"
+                       FontAttributes="Bold"
+                       TextColor="#2C3E50"
+                       VerticalOptions="Center" />
+
+                <Button Text="Logout"
+                        BackgroundColor="#E74C3C"
+                        TextColor="White"
+                        CornerRadius="10"
+                        Padding="10,5"
+                        Clicked="OnLogoutClicked"
+                        Grid.Column="1"
+                        VerticalOptions="Center"
+                        HorizontalOptions="End" />
+            </Grid>
+
+            <Label Text="Here's your financial snapshot"
+                   FontSize="16"
+                   TextColor="#7F8C8D"
+                   Margin="0,0,0,10" />
+
+            <!-- Banner Image -->
+            <Frame CornerRadius="20"
+                   HasShadow="False"
+                   Padding="0"
+                   BackgroundColor="Transparent"
+                   HeightRequest="200"
+                   HorizontalOptions="FillAndExpand">
+                <Image Source="banner.png"
+                       HorizontalOptions="FillAndExpand"
+                       VerticalOptions="FillAndExpand"
+                       Aspect="AspectFill"
+                       SemanticProperties.Description="financial banner" />
+            </Frame>
+
+            <!-- Summary Cards -->
+            <Grid ColumnSpacing="15" RowSpacing="15">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+
+                <!-- Income -->
+                <Frame Grid.Row="0" Grid.Column="0"
+                       BackgroundColor="#D4EDDA"
+                       CornerRadius="10"
+                       Padding="15"
+                       HasShadow="True"
+                       HeightRequest="120">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <Label Text="Income"
+                               FontSize="16"
+                               TextColor="#155724"
+                               HorizontalOptions="Center"/>
+                        <Label Text="💼"
+                               FontSize="32"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Expenses -->
+                <Frame Grid.Row="0" Grid.Column="1"
+                       BackgroundColor="#F8D7DA"
+                       CornerRadius="10"
+                       Padding="15"
+                       HasShadow="True"
+                       HeightRequest="120">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <Label Text="Expenses"
+                               FontSize="16"
+                               TextColor="#721C24"
+                               HorizontalOptions="Center"/>
+                        <Label Text="💸"
+                               FontSize="32"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Savings -->
+                <Frame Grid.Row="1" Grid.Column="0"
+                       BackgroundColor="#D1ECF1"
+                       CornerRadius="10"
+                       Padding="15"
+                       HasShadow="True"
+                       HeightRequest="120">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <Label Text="Savings"
+                               FontSize="16"
+                               TextColor="#0C5460"
+                               HorizontalOptions="Center"/>
+                        <Label Text="💰"
+                               FontSize="32"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+
+                <!-- Debts -->
+                <Frame Grid.Row="1" Grid.Column="1"
+                       BackgroundColor="#FFF3CD"
+                       CornerRadius="10"
+                       Padding="15"
+                       HasShadow="True"
+                       HeightRequest="120">
+                    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+                        <Label Text="Debts"
+                               FontSize="16"
+                               TextColor="#856404"
+                               HorizontalOptions="Center"/>
+                        <Label Text="📉"
+                               FontSize="32"
+                               HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+
+            <!-- Navigation Header -->
+            <Label Text="Tools and Reports"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Margin="0,20,0,10"
+                   TextColor="#2C3E50"/>
+
+            <!-- Navigation List -->
+            <CollectionView SelectionMode="Single"
+                            SelectionChanged="OnTileSelected">
+                <CollectionView.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>💰 Budget Planner</x:String>
+                        <x:String>🎯 Saving Goal Tracker</x:String>
+                        <x:String>💸 Debt Management</x:String>
+                        <x:String>📊 Financial Report</x:String>
+                    </x:Array>
+                </CollectionView.ItemsSource>
+
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="15"
+                               Margin="0,5"
+                               BackgroundColor="White"
+                               CornerRadius="10"
+                               HasShadow="True">
+                            <Label Text="{Binding}"
+                                   FontSize="18"
+                                   TextColor="#34495E"/>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
