@@ -17,7 +17,7 @@
             <VerticalStackLayout
                 Padding="30,0"
                 Spacing="25"
-                ZIndex="1">
+                ZIndex="1,5">
 
                 <Image
                     Source="logos.png"
